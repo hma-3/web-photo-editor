@@ -1,0 +1,73 @@
+.editor-overlays__heading {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.editor-overlays__hint {
+  margin: -6px 0 0;
+}
+
+.mini-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(92px, 1fr));
+  gap: 10px;
+}
+
+.overlay-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(92px, 1fr));
+}
+
+.editor-overlays__strip {
+  overflow: hidden;
+  scroll-behavior: auto;
+}
+
+.editor-overlays__grid {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.editor-overlays__grid .overlay-option {
+  flex: 0 0 auto;
+}
+
+.overlay-option {
+  padding: 0;
+  background: var(--bg);
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.editor-overlays__grid .overlay-option img {
+  min-height: 64px;
+  max-height: 92px;
+  border-radius: 12px;
+}
+
+.overlay-option.active {
+  border-color: var(--accent);
+}
+
+.overlay-option img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  object-fit: contain;
+  background: var(--white);
+}
+
+@media (min-width: 900px) {
+  .editor-overlays__grid {
+    gap: 12px;
+  }
+
+  .editor-overlays__grid .overlay-option img {
+    min-height: 76px;
+    max-height: 108px;
+  }
+}

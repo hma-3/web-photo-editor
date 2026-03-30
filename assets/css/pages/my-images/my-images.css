@@ -1,0 +1,30 @@
+.my-images-page__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+}
+
+.my-images-page__card {
+  display: grid;
+  gap: 10px;
+}
+
+.my-images-page__image {
+  width: 100%;
+  display: block;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+
+.my-images-page__meta {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .my-images-page__grid {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  }
+}

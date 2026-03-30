@@ -1,0 +1,32 @@
+.pagination {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
+.pagination a {
+  min-width: 44px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--white);
+  text-align: center;
+}
+
+.pagination a.active {
+  background: var(--accent);
+  color: var(--white);
+  border-color: var(--accent);
+}
+
+@media (min-width: 576px) {
+  .pagination {
+    gap: 8px;
+  }
+
+  .pagination a {
+    padding: 8px 12px;
+  }
+}

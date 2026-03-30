@@ -1,0 +1,26 @@
+.gallery-page__main {
+  display: grid;
+  gap: 24px;
+  min-width: 0;
+  order: 1;
+}
+
+.gallery-list {
+  display: grid;
+  gap: 14px;
+}
+
+.gallery-list__empty {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding: 24px;
+  text-align: center;
+  border: 1px dashed var(--border);
+  border-radius: 14px;
+}
+
+@media (min-width: 576px) {
+  .gallery-list {
+    gap: 18px;
+  }
+}

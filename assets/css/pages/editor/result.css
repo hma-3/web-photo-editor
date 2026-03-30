@@ -1,0 +1,27 @@
+.editor-result {
+  min-height: 240px;
+}
+
+.editor-result__actions {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.editor-result__actions button {
+  flex: 1;
+  min-width: 0;
+  min-height: 48px;
+}
+
+@media (min-width: 576px) {
+  .editor-result__actions {
+    flex-direction: row;
+  }
+
+  .editor-result__actions button {
+    min-width: 120px;
+  }
+}

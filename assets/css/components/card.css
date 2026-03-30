@@ -1,0 +1,14 @@
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px;
+  box-shadow: 0 10px 28px var(--shadow-soft);
+}
+
+@media (min-width: 576px) {
+  .card {
+    padding: 20px;
+    border-radius: 18px;
+  }
+}

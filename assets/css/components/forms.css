@@ -1,0 +1,41 @@
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+.form-label .required {
+  color: var(--danger);
+}
+
+.form-label input {
+  margin-top: 4px;
+  font-weight: 400;
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+}
+
+.checkbox-row input {
+  width: auto;
+  margin-top: 4px;
+}
+
+.checkbox-row span {
+  font-weight: 400;
+  color: var(--text);
+}
+
+.form-sep {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 8px 0;
+}

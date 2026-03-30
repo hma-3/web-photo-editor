@@ -1,0 +1,41 @@
+.editor-webcam__preview {
+  position: relative;
+}
+
+.editor-webcam__composite .editor-webcam__video {
+  width: 100%;
+  transform: translateZ(0);
+}
+
+.editor-webcam__composite.is-live-composite .editor-webcam__video {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.editor-webcam__composite .editor-webcam__overlay-canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+}
+
+.editor-preview .editor-preview__fallback:not(.hidden) {
+  min-height: 200px;
+  object-fit: contain;
+  background: var(--preview-bg);
+}
+
+.editor-webcam__actions {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (min-width: 576px) {
+  .editor-webcam__actions {
+    flex-direction: row;
+  }
+}

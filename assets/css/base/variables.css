@@ -1,0 +1,27 @@
+:root {
+  --bg: #f5f6fa;
+  --card: #ffffff;
+  --white: #ffffff;
+  --text: #202124;
+  --muted: #666;
+  --border: #e4e4e4;
+  --accent: #2f6fed;
+  --accent-hover: #1d4fc4;
+  --danger: #d64545;
+  --success: #2f8f46;
+  --header-bg: #111827;
+  --footer-text: #9ca3af;
+  --footer-link: #e5e7eb;
+  --secondary-bg: #374151;
+  --video-bg: #111111;
+  --preview-bg: #f3f4f6;
+  --success-bg: #e8f5eb;
+  --danger-bg: #fdecec;
+  --shadow-soft: rgba(0, 0, 0, 0.05);
+  --shadow-tab: rgba(0, 0, 0, 0.08);
+  --shadow-dropdown: rgba(0, 0, 0, 0.18);
+
+  --sm-screen-min: 576px;
+  --md-screen-min: 768px;
+  --lg-screen-min: 992px;
+}

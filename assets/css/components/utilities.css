@@ -1,0 +1,11 @@
+.muted {
+  color: var(--muted);
+}
+
+.hidden {
+  display: none !important;
+}
+
+.small-print {
+  font-size: 0.875rem;
+}

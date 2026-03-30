@@ -1,0 +1,60 @@
+.editor-page__sidebar {
+  display: grid;
+  gap: 12px;
+  position: static;
+  order: 2;
+}
+
+.editor-sidebar__header {
+  display: grid;
+  gap: 4px;
+}
+
+.editor-sidebar__title {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.editor-sidebar__description {
+  margin: 0;
+}
+
+.editor-sidebar__thumbs {
+  display: grid;
+  gap: 10px;
+}
+
+.sidebar-thumb-link {
+  display: block;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  aspect-ratio: 1;
+  background: var(--bg);
+  position: relative;
+}
+
+.editor-sidebar__thumb-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.sidebar-recent-empty {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.sidebar-recent-more {
+  margin: 0;
+  padding-top: 4px;
+  border-top: 1px solid var(--border);
+}
+
+@media (min-width: 768px) {
+  .editor-page__sidebar {
+    position: sticky;
+    top: 16px;
+  }
+}

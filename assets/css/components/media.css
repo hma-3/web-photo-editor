@@ -1,0 +1,20 @@
+.gallery-card .gallery-card__image,
+.editor-result img,
+.mini-card img,
+.editor-webcam__video {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+}
+
+.mini-card {
+  display: grid;
+  gap: 8px;
+}
+
+.mini-actions {
+  display: flex;
+  justify-content: flex-end;
+}

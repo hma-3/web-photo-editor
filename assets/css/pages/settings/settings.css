@@ -1,0 +1,8 @@
+.settings-card {
+  width: min(480px, 100%);
+  margin: 0 auto;
+}
+
+.settings-card__title {
+  margin-block: 0 8px;
+}

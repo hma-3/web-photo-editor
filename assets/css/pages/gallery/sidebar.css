@@ -1,0 +1,80 @@
+.gallery-page__sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  position: static;
+  order: 2;
+}
+
+.gallery-sidebar__popular-list {
+  display: grid;
+  gap: 12px;
+}
+
+.gallery-sidebar__popular-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.gallery-sidebar__popular-thumb {
+  flex: 0 0 auto;
+  width: 64px;
+  height: 64px;
+  aspect-ratio: 1;
+}
+
+.gallery-sidebar__popular-thumb-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-sidebar__popular-meta {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+  font-size: 0.9rem;
+}
+
+.gallery-sidebar__popular-author {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.gallery-sidebar__stats {
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+
+.gallery-sidebar__stats-list {
+  margin: 0;
+  padding-left: 1.1rem;
+  line-height: 1.5;
+}
+
+.gallery-sidebar__stats-value {
+  color: var(--text);
+}
+
+.gallery-sidebar__cta {
+  margin: 0;
+  padding-top: 8px;
+}
+
+.sidebar-recent-heading {
+  margin-block: 0 4px;
+}
+
+.gallery-sidebar__popular-hint {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .gallery-page__sidebar {
+    position: sticky;
+    top: 16px;
+  }
+}

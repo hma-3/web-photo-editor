@@ -1,0 +1,20 @@
+.like-btn {
+  background: var(--white);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+.btn-secondary {
+  background: var(--secondary-bg);
+  color: var(--white);
+}
+
+.btn-secondary:disabled {
+  opacity: 0.5;
+}
+
+.btn-danger {
+  background: var(--danger);
+  color: var(--white);
+  width: 100%;
+}

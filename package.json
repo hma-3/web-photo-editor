@@ -1,0 +1,10 @@
+{
+  "name": "web-photo-editor",
+  "private": true,
+  "description": "PhotoBooth web app",
+  "scripts": {
+    "start": "php -S localhost:8000",
+    "start:max-upload": "php -d upload_max_filesize=16M -d post_max_size=16M -S localhost:8000",
+    "init-db": "php config/setup.php"
+  }
+}
